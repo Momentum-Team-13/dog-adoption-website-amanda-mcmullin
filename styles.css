@@ -1,0 +1,16 @@
+.header {
+    background-color: #004175;
+    border-bottom: 5px solid #89DEEF;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    margin:0  
+}
+
+.adopt {
+    padding: 20px;
+}
+
