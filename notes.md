@@ -29,9 +29,9 @@ Each increases in difficulty, and you should attempt them in that order. Like al
 
 This section has a
 
-    [x]background color, #004175
-    [x]some padding, and a
-    [x]border on the bottom. border color #89DEEF
+[x]background color, #004175
+[x]some padding, and a
+[x]border on the bottom. border color #89DEEF
 
 Start by getting the text to show, then change the background and text colors. After that, you can add the padding and bottom border.
 
@@ -41,15 +41,15 @@ The background color is #004175 and the border color is #89DEEF.
 
 The first thing you want to do is to
 
-    []get the dogs' names,
-    []images, and
-    []traits (list of items) background color #89DEEF
+[x]get the dogs' names,
+[x]images, and
+[x]traits (list of items) background color #89DEEF
 
 to show. Think about what HTML elements make the most sense here. Don't let the default styling overly influence your decision. For example, the traits are a list of items -- what HTML element represents a list of items?
 
 []Once you have these showing, work on the fonts and colors. The color behind each trait is #89DEEF.
 
-[]Get the traits to show up next to each other.
+[x]Get the traits to show up next to each other.
 
 They still need some padding and margin. There are two good ways to get them to look like they should: [flexbox](https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/) and [`display: inline-block`](https://medium.com/better-programming/understanding-css-display-none-block-inline-and-inline-block-63f6510df93). If you use Flexbox, you'll need to [know how to wrap the elements](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#Multi-line_flex_containers_with_flex-wrap)
 

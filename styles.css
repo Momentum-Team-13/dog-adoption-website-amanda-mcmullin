@@ -2,11 +2,15 @@
     background-color: #004175;
     border-bottom: 5px solid #89DEEF;
     color: white;
+    display: block;
+    font-family: "Oswald";
+    font-size: 40px;
     margin: 0;
-    padding: 20px;
+    padding: 9px;
 }
 
 body {
+    font-family: "Open Sans";
     margin:0  
 }
 
@@ -14,3 +18,11 @@ body {
     padding: 20px;
 }
 
+.trait {
+    background-color: #89DEEF;
+    display:inline-block;
+} 
+.dog-box p {
+    background-color: #89DEEF;
+    display:inline-block;
+}
