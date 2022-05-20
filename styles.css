@@ -1,12 +1,12 @@
 .header {
     background-color: #004175;
-    border-bottom: 5px solid #89DEEF;
+    border-bottom: 3px solid #89DEEF;
     color: white;
     display: block;
-    font-family: "Oswald";
-    font-size: 40px;
-    margin: 0;
-    padding: 9px;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 body {
@@ -15,14 +15,31 @@ body {
 }
 
 .adopt {
-    padding: 20px;
+    padding: 10px;
 }
 
-.trait {
+.dogs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: blue;
+    border: 7px solid pink; */
+}
+
+
+.dog-name{
+    font-family: "Oswald";
+    margin-block-start: 0em;
+}
+
+.dog-box span {
     background-color: #89DEEF;
-    display:inline-block;
-} 
-.dog-box p {
-    background-color: #89DEEF;
-    display:inline-block;
+    border-radius: 30px;
+    font-family: "Open Sans";
+    font-size: small;
+    width: min-content;
+}
+
+img {
+    max-width: 350px;
 }
