@@ -47,11 +47,13 @@ The first thing you want to do is to
 
 to show. Think about what HTML elements make the most sense here. Don't let the default styling overly influence your decision. For example, the traits are a list of items -- what HTML element represents a list of items?
 
-[]Once you have these showing, work on the fonts and colors. The color behind each trait is #89DEEF.
+[X]Once you have these showing, work on the fonts and colors. The color behind each trait is #89DEEF.
 
 [x]Get the traits to show up next to each other.
 
+******
 They still need some padding and margin. There are two good ways to get them to look like they should: [flexbox](https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/) and [`display: inline-block`](https://medium.com/better-programming/understanding-css-display-none-block-inline-and-inline-block-63f6510df93). If you use Flexbox, you'll need to [know how to wrap the elements](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#Multi-line_flex_containers_with_flex-wrap)
+******
 
 []Finally, once you have each dog showing up with its image and traits, but each one on top of the next, use flexbox or inline-block to lay them out on the page next to each other. **Important**: they don't have to be three-in-a-row. They could be 1, 2, 3, 4, or more depending on the size of the browser. The web is made for fluid documents.
 

@@ -1,29 +1,34 @@
-.header {
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
     background-color: #004175;
     border-bottom: 3px solid #89DEEF;
     color: white;
     display: block;
     font-family: "Open Sans";
-    font-size: 30px;
+    font-size: 10px;
     font-weight: bold;
-    padding: 10px;
+    padding: 17px;
 }
 
 body {
     font-family: "Open Sans";
-    margin:0  
+    /* margin: 20px;   */
 }
 
 .adopt {
-    padding: 10px;
+    padding: 17px;
+    font-size: 10px;
 }
 
 .dogs {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    /* background-color: blue;
-    border: 7px solid pink; */
+    flex-direction: row; 
+    padding:17px;
 }
 
 
@@ -32,12 +37,12 @@ body {
     margin-block-start: 0em;
 }
 
-.dog-box span {
+#dog-box button {
     background-color: #89DEEF;
-    border-radius: 30px;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
     font-family: "Open Sans";
-    font-size: small;
-    width: min-content;
 }
 
 img {
