@@ -51,26 +51,28 @@ to show. Think about what HTML elements make the most sense here. Don't let the 
 
 [x]Get the traits to show up next to each other.
 
-******
-They still need some padding and margin. There are two good ways to get them to look like they should: [flexbox](https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/) and [`display: inline-block`](https://medium.com/better-programming/understanding-css-display-none-block-inline-and-inline-block-63f6510df93). If you use Flexbox, you'll need to [know how to wrap the elements](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#Multi-line_flex_containers_with_flex-wrap)
-******
+---
 
-[]Finally, once you have each dog showing up with its image and traits, but each one on top of the next, use flexbox or inline-block to lay them out on the page next to each other. **Important**: they don't have to be three-in-a-row. They could be 1, 2, 3, 4, or more depending on the size of the browser. The web is made for fluid documents.
+They still need some padding and margin. There are two good ways to get them to look like they should: [flexbox](https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/) and [`display: inline-block`](https://medium.com/better-programming/understanding-css-display-none-block-inline-and-inline-block-63f6510df93). If you use Flexbox, you'll need to [know how to wrap the elements](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#Multi-line_flex_containers_with_flex-wrap)
+
+---
+
+[X]Finally, once you have each dog showing up with its image and traits, but each one on top of the next, use flexbox or inline-block to lay them out on the page next to each other. **Important**: they don't have to be three-in-a-row. They could be 1, 2, 3, 4, or more depending on the size of the browser. The web is made for fluid documents.
 
 ### Section 3: the footer
 
 This is the most difficult section, and some professional web developers would struggle with it.
 
-[]Once you have the three words on the page, try laying them out in three blocks next to each other. (These should always be in three blocks.)
+[X]Once you have the three words on the page, try laying them out in three blocks next to each other. (These should always be in three blocks.)
 
-[]Flexbox may be your friend here. If you are using flexbox, the property `flex: 1 1 auto` should be applied to each block to get them to grow to fill the page.
+[X]Flexbox may be your friend here. If you are using flexbox, the property `flex: 1 1 auto` should be applied to each block to get them to grow to fill the page.
 
 Once they are next to each other,
 
-[]give them some height and center the text horizontally in them. This should be fairly straightforward.
+[x]give them some height and center the text horizontally in them. This should be fairly straightforward.
 
-[]The first major challenge is next: how to center them vertically? There's multiple ways to do this, including nesting flexbox containers. A simple way involves setting `line-height` equal to the height of the containing element.
+[x]The first major challenge is next: how to center them vertically? There's multiple ways to do this, including nesting flexbox containers. A simple way involves setting `line-height` equal to the height of the containing element.
 
-[]Next, add a background color (#A6A9F0). If you can do this, you're almost done!
+[x]Next, add a background color (#A6A9F0). If you can do this, you're almost done!
 
-[]The last and hardest challenge is getting the images to appear with the bluish filter on them. The `background` property will make this work, and you [can read how to add a color overly to an image at CSS-Tricks](https://css-tricks.com/tinted-images-multiple-backgrounds/).
+[x]The last and hardest challenge is getting the images to appear with the bluish filter on them. The `background` property will make this work, and you [can read how to add a color overly to an image at CSS-Tricks](https://css-tricks.com/tinted-images-multiple-backgrounds/).
